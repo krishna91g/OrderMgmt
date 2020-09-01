@@ -52,3 +52,5 @@ http://localhost:8082/order-management/feign/orders
 
 URL to test the feign client for fetching order Item details for a given Order Id from Microservice - OrderItem
 http://localhost:8082/order-management/feign/orders/1
+
+Note: Eureka server is configured but not being used, written a simple feign client for inter-process communication among microservices
